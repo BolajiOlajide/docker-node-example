@@ -13,7 +13,7 @@ docker run --name nodeapp -p 9999:9999
 * Spin up multiple instances of an image
 
 ```sh
-docker run -d -p 8000:9999 nodeapp
-docker run -d -p 8001:9999 nodeapp
-docker run -d -p 8002:9999 nodeapp
+docker run -d -p 8000:9999 nodeapp # app running on port 8080
+docker run -d -p 8001:9999 nodeapp # app running on port 8081
+docker run -d -p 8002:9999 nodeapp # app running on port 8082
 ```
